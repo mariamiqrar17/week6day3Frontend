@@ -67,8 +67,8 @@ export default function Featured({product}) {
         <ColumnsWrapper>
           <Column>
             <div>
-              <Title>{product?.title}</Title>
-              <Desc>{product?.description}</Desc>
+              <Title>Lenovo IdeaPad</Title>
+              <Desc>Lenovo IdeaPad 1 15AMN7 Laptop - AMD Ryzen 3 7320U - 4GB DDR5 - 256GB SSD - Radeon 610M Graphics - 15.6" HD Display </Desc>
               <ButtonsWrapper>
                 <ButtonLink href={'/product/'+product?._id} outline={1} white={1}>Read more</ButtonLink>
                 <Button white onClick={addFeaturedToCart}>
@@ -79,7 +79,7 @@ export default function Featured({product}) {
             </div>
           </Column>
           <Column>
-            <img src="https://dawid-next-ecommerce.s3.amazonaws.com/1679151719649.png" alt="Hello"/>
+            <img src="https://dawid-next-ecommerce.s3.amazonaws.com/1679151719649.png" alt=""/>
           </Column>
         </ColumnsWrapper>
       </Center>
