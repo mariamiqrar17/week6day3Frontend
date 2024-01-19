@@ -23,6 +23,7 @@ const Desc = styled.p`
   color: #aaa;
   font-size: 0.8rem;
 `;
+
 const ColumnsWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
