@@ -2,12 +2,12 @@ import styled from "styled-components";
 import {useState} from "react";
 
 const Image = styled.img`
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
   `;
 const BigImage = styled.img`
-  max-width: 100%;
-  max-height: 200px;
+  max-width: 80%;
+  max-height: 120px;
 `;
 const ImageButtons = styled.div`
     display: flex;

@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa";
 const StyledFooter = styled.footer`
   background-color: #222;
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-  padding: 2rem 0;
+  padding: 2rem 2rem;
   position:static
 `;
 const Wrapper = styled.div`
@@ -113,5 +113,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-

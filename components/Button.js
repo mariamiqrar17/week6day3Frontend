@@ -10,8 +10,7 @@ export const ButtonStyle = css`
   align-items: center;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  font-weight:600;
-  
+  font-weight:500;
   svg{
     height: 16px;
     margin-right: 5px;
@@ -19,7 +18,6 @@ export const ButtonStyle = css`
   ${props => props.block && css`
     display: block;
     width: 100%;
-    background-color: #000;
   `}
   ${props => props.white && !props.outline && css`
     background-color: #fff;
